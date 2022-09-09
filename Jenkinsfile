@@ -3,7 +3,7 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID = credentials('jenkins-access-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('jenkins-secret-access-key')
-        AWS_S3_BUCKET = "spring"
+        AWS_S3_BUCKET = "spring-boot-ass"
         ARTIFACT_NAME = "spring-boot.jar"
         AWS_EB_APP_NAME = "sprin-boot"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
